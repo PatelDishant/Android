@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="b07.flightplanner.UploadClient" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uploadClient" />
+
+    <EditText
+        android:id="@+id/editLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" Last Name"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editLast"
+        android:layout_below="@+id/editLast"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" First Name"
+        android:maxLines="1" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" E-mail Address"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEmail"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" Address"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editAddress"
+        android:layout_below="@+id/editAddress"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" Credit Card"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editExpiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editCard"
+        android:layout_below="@+id/editCard"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint=" Expiry Date"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editExpiry"
+        android:layout_alignRight="@+id/editExpiry"
+        android:layout_below="@+id/editExpiry"
+        android:layout_marginTop="20dp"
+        android:onClick="Upload"
+        android:background="@drawable/button_shape"
+        android:text="@string/upload"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

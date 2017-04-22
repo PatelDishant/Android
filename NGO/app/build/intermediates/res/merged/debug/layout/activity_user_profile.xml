@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ngo.UserProfile"
+    android:background="@drawable/bgg" >
+
+    <ImageView
+        android:contentDescription="@string/logo"
+        android:id="@+id/globelogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/globelogo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ngo"
+        android:textSize="20sp"
+        android:layout_below="@+id/globelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ngo"
+        android:layout_centerHorizontal="true" />
+    
+    <Button 
+        android:id="@+id/searchNgos"
+        android:layout_below="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login"
+        android:text="@string/srchNGO"
+        android:textColor="#ffffff"
+        android:layout_marginTop="70dp"
+        android:textAllCaps="false"
+        android:onClick="BrowseNgo"
+        android:clickable="true"
+        android:typeface="serif"
+        android:textColorLink="#000000" />
+    
+    <Button 
+        android:id="@+id/searchMem"
+        android:layout_below="@+id/searchNgos"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login"
+        android:text="@string/srchMEM"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:onClick="NGOCommunity"
+        android:clickable="true"
+        android:typeface="serif"
+        android:textColorLink="#000000" />
+    
+    <Button 
+        android:id="@+id/ngoNews"
+        android:layout_below="@+id/searchMem"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login"
+        android:text="@string/ngoNews"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:typeface="serif"
+        android:textColorLink="#000000" />
+    
+    <Button 
+        android:id="@+id/searchEmp"
+        android:layout_below="@+id/ngoNews"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login"
+        android:text="@string/srchEmp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:typeface="serif"
+        android:textColorLink="#000000" />
+
+</RelativeLayout>

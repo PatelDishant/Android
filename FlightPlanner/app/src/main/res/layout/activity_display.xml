@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/displayButtons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/button_shape"
+                android:onClick="searchFlight"
+                android:text="@string/searchFlight"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button1"
+                android:background="@drawable/button_shape"
+                android:onClick="searchItinerary"
+                android:text="@string/searchItin"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button2"
+                android:background="@drawable/button_shape"
+                android:onClick="viewBookings"
+                android:text="@string/viewBooking"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button3"
+                android:background="@drawable/button_shape"
+                android:onClick="viewInfo"
+                android:text="@string/viewInfo"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/AddClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/view"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/AddFlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/AddClient"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/editclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/AddFlight"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/editflight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/editclient"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/viewClientInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/editflight"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/viewClientBookings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/viewClientInfo"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/UploadFlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/viewClientBookings"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/UploadClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/UploadFlight"
+                android:background="@drawable/empty" />
+
+            <Button
+                android:id="@+id/Logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/UploadClient"
+                android:text="@string/logout"
+                android:onClick="Logout"
+                android:textColor="#FFFFFF" 
+                android:background="@drawable/button_shape" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

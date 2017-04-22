@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:11:5-80:19
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:15:9-40
+activity#b07.flightplanner.Splash
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:19:13-60
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:17:13-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:23:27-74
+activity#b07.flightplanner.MainActivity
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:26:9-35:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:27:13-41
+intent-filter#android.intent.category.DEFAULT+b07.flightplanner.MAINACTIVITY
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:30:13-34:29
+action#b07.flightplanner.MAINACTIVITY
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:31:17-73
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:31:25-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:33:27-73
+activity#b07.flightplanner.DisplayActivity
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:36:9-39:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:38:13-59
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:37:13-44
+activity#b07.flightplanner.SearchFlight
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:40:9-43:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:41:13-41
+activity#b07.flightplanner.PersonalActivity
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:45:13-45
+activity#b07.flightplanner.ViewFlights
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:50:13-64
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:49:13-40
+activity#b07.flightplanner.ViewBookings
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:52:9-55:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:54:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:53:13-41
+activity#b07.flightplanner.UploadClient
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:56:9-59:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:57:13-41
+activity#b07.flightplanner.UploadFlight
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:62:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:61:13-41
+activity#b07.flightplanner.ChooseClient
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:66:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:65:13-41
+activity#b07.flightplanner.ChooseFlight
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:70:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:69:13-41
+activity#b07.flightplanner.EditFlight
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:72:9-75:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:73:13-39
+activity#b07.flightplanner.SelectFlight
+ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:label
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:78:13-65
+	android:name
+		ADDED from C:\Users\Dishant\Documents\GitHub\Android-Projects\FlightPlanner\app\src\main\AndroidManifest.xml:77:13-41

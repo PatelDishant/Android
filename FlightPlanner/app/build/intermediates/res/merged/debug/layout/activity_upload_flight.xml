@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="b07.flightplanner.UploadFlight" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uploadFlight" />
+
+            <EditText
+                android:id="@+id/departure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/number"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Departure Date"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/arrival"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/departure"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Arrival Date"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/finsih"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Price"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/seats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Number of Seats"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/airline"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Origin"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/finsih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/price"
+                android:layout_below="@+id/start"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Destination"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/airline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/start"
+                android:layout_below="@+id/arrival"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Airline"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/departure"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/box"
+                android:ems="10"
+                android:hint=" Flight Number"
+                android:maxLines="1" >
+            </EditText>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/seats"
+                android:layout_alignRight="@+id/seats"
+                android:layout_below="@+id/seats"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_shape"
+                android:onClick="Upload"
+                android:text="@string/upload"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

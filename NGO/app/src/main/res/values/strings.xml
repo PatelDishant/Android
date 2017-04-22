@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NGO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ngo">NGO</string>
+    <string name="slogan">Service meets Social</string>
+    <string name="loginButton">Log In</string>
+    <string name="usernameHint">Enter your Username</string>
+    <string name="passwordHint">Enter your Password</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="loginRegister">Sign Up</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="usernameSignupHint">Select a Username</string>
+    <string name="passwordSignupHint">Select a Password</string>
+    <string name="passwordSignupConfirm">Confirm your Password</string>
+    <string name="usernameSignupEmail">Enter your Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logo">company logo</string>
+    <string name="srchNGO">Browse NGOs</string>
+    <string name="srchMEM">Connect with the NGO Community</string>
+    <string name="srchEmp">Career Opportunities</string>
+    <string name="ngoNews">NGO News</string>
+    <string name="title_activity_browse_ngos">BrowseNGOs</string>
+    <string name="title_activity_ngolay">NGOLay</string>
+    <string name="title_activity_ngocommunity">NGOCommunity</string>
+
+</resources>

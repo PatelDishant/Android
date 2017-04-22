@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="b07.flightplanner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="b07.flightplanner.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".SearchFlight"
+            android:label="@string/title_activity_search_flight" >
+        </activity>
+        <activity
+            android:name=".PersonalActivity"
+            android:label="@string/title_activity_personal" >
+        </activity>
+        <activity
+            android:name=".ViewFlights"
+            android:label="@string/title_activity_view_flights" >
+        </activity>
+        <activity
+            android:name=".ViewBookings"
+            android:label="@string/title_activity_view_bookings" >
+        </activity>
+        <activity
+            android:name=".UploadClient"
+            android:label="@string/title_activity_upload_client" >
+        </activity>
+        <activity
+            android:name=".UploadFlight"
+            android:label="@string/title_activity_upload_flight" >
+        </activity>
+        <activity
+            android:name=".ChooseClient"
+            android:label="@string/title_activity_choose_client" >
+        </activity>
+        <activity
+            android:name=".ChooseFlight"
+            android:label="@string/title_activity_choose_flight" >
+        </activity>
+        <activity
+            android:name=".EditFlight"
+            android:label="@string/title_activity_edit_flight" >
+        </activity>
+        <activity
+            android:name=".SelectFlight"
+            android:label="@string/title_activity_select_flight" >
+        </activity>
+    </application>
+
+</manifest>

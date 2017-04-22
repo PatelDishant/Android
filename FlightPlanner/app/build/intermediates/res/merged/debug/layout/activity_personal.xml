@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:src="@drawable/banner" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address"
+        android:layout_below="@+id/firstname"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/infor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstname"
+        android:layout_below="@+id/lastname"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/address"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/email"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cardnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/card"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/expiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cardnum"
+        android:layout_below="@+id/cardnum"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/expiry"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:src="@drawable/logo_white" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignTop="@+id/firstname"
+        android:src="@drawable/firstname" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="true"
+        android:text="@string/first"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/expiry"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/expiry" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignTop="@+id/email"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignTop="@+id/address"
+        android:src="@drawable/address" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignTop="@+id/lastname"
+        android:src="@drawable/lastname" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignTop="@+id/cardnum"
+        android:src="@drawable/card" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_shape"
+        android:onClick="insertClient"
+        android:text="@string/insertClient"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

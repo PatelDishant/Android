@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ngo.SignUp"
+    android:background="@drawable/bgg" >
+
+    <ImageView
+        android:contentDescription="@string/logo"
+        android:id="@+id/globelogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/globelogo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ngo"
+        android:textSize="20sp"
+        android:layout_below="@+id/globelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ngo"
+        android:layout_centerHorizontal="true" />
+    
+     <EditText
+        android:id="@+id/SignupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="@string/usernameSignupEmail"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+         android:typeface="serif" />
+    <EditText
+        android:id="@+id/SignupUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignupEmail"
+        android:ems="10"
+        android:hint="@string/usernameSignupHint"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:typeface="serif" />
+       
+    <EditText
+        android:id="@+id/SignupPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignupUserName"
+        android:hint="@string/passwordSignupHint"
+        android:ems="10"
+        android:maxLines="1"
+        android:drawablePadding="15dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:typeface="serif" />
+    
+    <EditText
+        android:id="@+id/ConfirmPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignupPassWord"
+        android:hint="@string/passwordSignupConfirm"
+        android:ems="10"
+        android:maxLines="1"
+        android:drawablePadding="15dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:typeface="serif" />
+    
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/sign_up"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="registerUser"
+        android:background="@drawable/login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:typeface="serif"
+        android:textColorLink="#000000" />
+        
+
+</RelativeLayout>

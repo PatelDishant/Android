@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\browse_ngos.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\browse_ngos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sign_up.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ngolay.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\ngolay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\user_profile.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login_page.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\NGO\\app\\src\\main\\res\\menu\\login_page.xml"
+    }
+]

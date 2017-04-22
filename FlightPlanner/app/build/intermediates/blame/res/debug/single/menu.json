@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\upload_client.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\upload_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\select_flight.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\select_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\personal.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\personal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\display.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\display.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_bookings.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\view_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choose_flight.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\choose_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choose_client.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\choose_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_flight.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\edit_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\upload_flight.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\upload_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_flights.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\view_flights.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_flight.xml",
+        "source": "C:\\Users\\Dishant\\Documents\\GitHub\\Android-Projects\\FlightPlanner\\app\\src\\main\\res\\menu\\search_flight.xml"
+    }
+]
