@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518744951458",
+    "project_id": "firebase-ngo-2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518744951458:android:f3cadb77665188df",
+        "android_client_info": {
+          "package_name": "dev.dishant.ngo20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518744951458-t2cq3a2qlhd048s4b9mca8gfknhjjlh6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "518744951458-6v5q8g916cteuvda6raiev0v3vmfo6er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.dishant.ngo20",
+            "certificate_hash": "b279d54cb15b3acbd0ba27ba3331fcd6385499b4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEjgH2PABSFP-oPXugcBOqj3WmTZ0ZYCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
