@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.dishant.exekutivefades.BarberPage"
+    android:background="@drawable/bg_image">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/display"
+            android:id="@+id/circleView"
+            android:layout_marginLeft="20dp"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/circleView"
+            android:layout_marginTop="25dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:columnWidth="100dp"
+            android:drawSelectorOnTop="true"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_below="@id/spinner"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/grdView"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>

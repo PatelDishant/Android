@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.dishant.exekutivefades.loginScreen"
+    android:background="@drawable/bg_image"
+    >
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:hint="@string/enter_user_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="155dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/back"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_login"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="243dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#e65c00"
+        android:onClick="loginFunction"/>
+
+
+    <View style="@style/LineDivider"
+        android:background="#ffffff"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:id="@+id/view"
+        android:layout_centerHorizontal="true"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btnLogin"
+        android:layout_alignStart="@+id/btnLogin"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_alignRight="@+id/btnLogin"
+        android:layout_alignEnd="@+id/btnLogin" />
+
+    <TextView
+        android:id="@+id/textViewForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:onClick="forgotPass"/>
+
+    <TextView
+        android:id="@+id/textViewNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewForgotPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="New User Sign up"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:onClick="newUser"/>
+
+</RelativeLayout>

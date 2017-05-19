@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ExekutiveFades</string>
+    <string name="enter_user_name">Enter your Username</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="enter_email">Enter your Email</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="select_user_name">Select a Username</string>
+    <string name="confirm_email">Confirm email address</string>
+    <string name="facebook_app_id">156445168219148</string>
+    <string name="fb_login_protocol_scheme">fb156445168219148</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+    </string-array>
+</resources>
